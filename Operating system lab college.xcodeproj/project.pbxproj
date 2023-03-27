@@ -8,10 +8,50 @@
 
 /* Begin PBXBuildFile section */
 		95151E9A2987BF1300428476 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 95151E992987BF1300428476 /* main.cpp */; };
+		95151EA72987D22600428476 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 95151EA62987D22600428476 /* main.cpp */; };
+		957CEC7929A36CB40020AB42 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 957CEC7829A36CB40020AB42 /* main.cpp */; };
+		95F848C229ACA37E00A9A5B3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 95F848C129ACA37E00A9A5B3 /* main.cpp */; };
+		95FF3AC329C853D00049B8CE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 95FF3AC229C853D00049B8CE /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		95151E942987BF1300428476 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		95151EA22987D22600428476 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		957CEC7429A36CB40020AB42 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		95F848BD29ACA37D00A9A5B3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		95FF3ABE29C853D00049B8CE /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -25,10 +65,46 @@
 /* Begin PBXFileReference section */
 		95151E962987BF1300428476 /* Operating system lab college */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Operating system lab college"; sourceTree = BUILT_PRODUCTS_DIR; };
 		95151E992987BF1300428476 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		95151EA42987D22600428476 /* FCFS for AT in different order */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "FCFS for AT in different order"; sourceTree = BUILT_PRODUCTS_DIR; };
+		95151EA62987D22600428476 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		957CEC7629A36CB40020AB42 /* priority based scheduling */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "priority based scheduling"; sourceTree = BUILT_PRODUCTS_DIR; };
+		957CEC7829A36CB40020AB42 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		95F848BF29ACA37D00A9A5B3 /* producer consumer problem */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "producer consumer problem"; sourceTree = BUILT_PRODUCTS_DIR; };
+		95F848C129ACA37E00A9A5B3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		95FF3AC029C853D00049B8CE /* banker's algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "banker's algorithm"; sourceTree = BUILT_PRODUCTS_DIR; };
+		95FF3AC229C853D00049B8CE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		95151E932987BF1300428476 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95151EA12987D22600428476 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		957CEC7329A36CB40020AB42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95F848BC29ACA37D00A9A5B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95FF3ABD29C853D00049B8CE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,6 +118,10 @@
 			isa = PBXGroup;
 			children = (
 				95151E982987BF1300428476 /* Operating system lab college */,
+				95151EA52987D22600428476 /* FCFS for AT in different order */,
+				957CEC7729A36CB40020AB42 /* priority based scheduling */,
+				95F848C029ACA37D00A9A5B3 /* producer consumer problem */,
+				95FF3AC129C853D00049B8CE /* banker's algorithm */,
 				95151E972987BF1300428476 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,6 +130,10 @@
 			isa = PBXGroup;
 			children = (
 				95151E962987BF1300428476 /* Operating system lab college */,
+				95151EA42987D22600428476 /* FCFS for AT in different order */,
+				957CEC7629A36CB40020AB42 /* priority based scheduling */,
+				95F848BF29ACA37D00A9A5B3 /* producer consumer problem */,
+				95FF3AC029C853D00049B8CE /* banker's algorithm */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,6 +144,38 @@
 				95151E992987BF1300428476 /* main.cpp */,
 			);
 			path = "Operating system lab college";
+			sourceTree = "<group>";
+		};
+		95151EA52987D22600428476 /* FCFS for AT in different order */ = {
+			isa = PBXGroup;
+			children = (
+				95151EA62987D22600428476 /* main.cpp */,
+			);
+			path = "FCFS for AT in different order";
+			sourceTree = "<group>";
+		};
+		957CEC7729A36CB40020AB42 /* priority based scheduling */ = {
+			isa = PBXGroup;
+			children = (
+				957CEC7829A36CB40020AB42 /* main.cpp */,
+			);
+			path = "priority based scheduling";
+			sourceTree = "<group>";
+		};
+		95F848C029ACA37D00A9A5B3 /* producer consumer problem */ = {
+			isa = PBXGroup;
+			children = (
+				95F848C129ACA37E00A9A5B3 /* main.cpp */,
+			);
+			path = "producer consumer problem";
+			sourceTree = "<group>";
+		};
+		95FF3AC129C853D00049B8CE /* banker's algorithm */ = {
+			isa = PBXGroup;
+			children = (
+				95FF3AC229C853D00049B8CE /* main.cpp */,
+			);
+			path = "banker's algorithm";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -82,6 +198,74 @@
 			productReference = 95151E962987BF1300428476 /* Operating system lab college */;
 			productType = "com.apple.product-type.tool";
 		};
+		95151EA32987D22600428476 /* FCFS for AT in different order */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95151EAA2987D22600428476 /* Build configuration list for PBXNativeTarget "FCFS for AT in different order" */;
+			buildPhases = (
+				95151EA02987D22600428476 /* Sources */,
+				95151EA12987D22600428476 /* Frameworks */,
+				95151EA22987D22600428476 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FCFS for AT in different order";
+			productName = "FCFS for AT in different order";
+			productReference = 95151EA42987D22600428476 /* FCFS for AT in different order */;
+			productType = "com.apple.product-type.tool";
+		};
+		957CEC7529A36CB40020AB42 /* priority based scheduling */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 957CEC7C29A36CB40020AB42 /* Build configuration list for PBXNativeTarget "priority based scheduling" */;
+			buildPhases = (
+				957CEC7229A36CB40020AB42 /* Sources */,
+				957CEC7329A36CB40020AB42 /* Frameworks */,
+				957CEC7429A36CB40020AB42 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "priority based scheduling";
+			productName = "priority based scheduling";
+			productReference = 957CEC7629A36CB40020AB42 /* priority based scheduling */;
+			productType = "com.apple.product-type.tool";
+		};
+		95F848BE29ACA37D00A9A5B3 /* producer consumer problem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95F848C529ACA37E00A9A5B3 /* Build configuration list for PBXNativeTarget "producer consumer problem" */;
+			buildPhases = (
+				95F848BB29ACA37D00A9A5B3 /* Sources */,
+				95F848BC29ACA37D00A9A5B3 /* Frameworks */,
+				95F848BD29ACA37D00A9A5B3 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "producer consumer problem";
+			productName = "producer consumer problem";
+			productReference = 95F848BF29ACA37D00A9A5B3 /* producer consumer problem */;
+			productType = "com.apple.product-type.tool";
+		};
+		95FF3ABF29C853D00049B8CE /* banker's algorithm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95FF3AC629C853D00049B8CE /* Build configuration list for PBXNativeTarget "banker's algorithm" */;
+			buildPhases = (
+				95FF3ABC29C853D00049B8CE /* Sources */,
+				95FF3ABD29C853D00049B8CE /* Frameworks */,
+				95FF3ABE29C853D00049B8CE /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "banker's algorithm";
+			productName = "banker's algorithm";
+			productReference = 95FF3AC029C853D00049B8CE /* banker's algorithm */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -92,6 +276,18 @@
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
 					95151E952987BF1300428476 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					95151EA32987D22600428476 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					957CEC7529A36CB40020AB42 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					95F848BE29ACA37D00A9A5B3 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					95FF3ABF29C853D00049B8CE = {
 						CreatedOnToolsVersion = 14.2;
 					};
 				};
@@ -110,6 +306,10 @@
 			projectRoot = "";
 			targets = (
 				95151E952987BF1300428476 /* Operating system lab college */,
+				95151EA32987D22600428476 /* FCFS for AT in different order */,
+				957CEC7529A36CB40020AB42 /* priority based scheduling */,
+				95F848BE29ACA37D00A9A5B3 /* producer consumer problem */,
+				95FF3ABF29C853D00049B8CE /* banker's algorithm */,
 			);
 		};
 /* End PBXProject section */
@@ -120,6 +320,38 @@
 			buildActionMask = 2147483647;
 			files = (
 				95151E9A2987BF1300428476 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95151EA02987D22600428476 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95151EA72987D22600428476 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		957CEC7229A36CB40020AB42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				957CEC7929A36CB40020AB42 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95F848BB29ACA37D00A9A5B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95F848C229ACA37E00A9A5B3 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95FF3ABC29C853D00049B8CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95FF3AC329C853D00049B8CE /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +483,70 @@
 			};
 			name = Release;
 		};
+		95151EA82987D22600428476 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		95151EA92987D22600428476 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		957CEC7A29A36CB40020AB42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		957CEC7B29A36CB40020AB42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		95F848C329ACA37E00A9A5B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		95F848C429ACA37E00A9A5B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		95FF3AC429C853D00049B8CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		95FF3AC529C853D00049B8CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -268,6 +564,42 @@
 			buildConfigurations = (
 				95151E9E2987BF1300428476 /* Debug */,
 				95151E9F2987BF1300428476 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95151EAA2987D22600428476 /* Build configuration list for PBXNativeTarget "FCFS for AT in different order" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95151EA82987D22600428476 /* Debug */,
+				95151EA92987D22600428476 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		957CEC7C29A36CB40020AB42 /* Build configuration list for PBXNativeTarget "priority based scheduling" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				957CEC7A29A36CB40020AB42 /* Debug */,
+				957CEC7B29A36CB40020AB42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95F848C529ACA37E00A9A5B3 /* Build configuration list for PBXNativeTarget "producer consumer problem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95F848C329ACA37E00A9A5B3 /* Debug */,
+				95F848C429ACA37E00A9A5B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95FF3AC629C853D00049B8CE /* Build configuration list for PBXNativeTarget "banker's algorithm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95FF3AC429C853D00049B8CE /* Debug */,
+				95FF3AC529C853D00049B8CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

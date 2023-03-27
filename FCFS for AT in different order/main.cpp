@@ -9,7 +9,35 @@ public:
     int TAT;
     int WT;
     int RT;
+    void operator = (const process &obj){
+        p_id=obj.p_id;
+        AT=obj.AT;
+        BT=obj.BT;
+        CT=obj.CT;
+        TAT=obj.TAT;
+        RT=obj.RT;
+    }
 };
+void bubblesort(process p[],int n){
+    int i,j;
+    process temp;
+    int issort=0;
+    for (i=0; i<n-1; i++) {//operation number for loop
+         issort=1;
+        for (j=0; j<n-1-i; j++) {//element checking and swapping for loop
+            if (p[j].AT>p[j+1].AT) {
+                temp=p[j];
+                p[j]=p[j+1];
+                p[j+1]=temp;
+                issort=0;
+            }
+        }
+            if (issort==1) {
+                return ;
+            }
+        
+    }
+}
 int main(){
     process p[30];
     int x,k=0;
@@ -32,6 +60,7 @@ int main(){
             break;
         }
         }
+    bubblesort(p, n);
     p[0].WT=0;
     for(i=1;i<n;i++){
         k=k+(p[i-1].BT);
